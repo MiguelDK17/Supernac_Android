@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".finalizando_compras"
+    android:background="#ADD8E6">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="#0000FF"
+            android:gravity="center"
+            android:text="VALOR TOTAL DA COMPRA"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="180dp"
+                android:layout_height="56dp"
+                android:layout_marginTop="-4dp"
+                android:layout_weight="0"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="R$:"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tvRecebeTexto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="170dp"
+                android:layout_marginEnd="-0dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:clickable="false"
+                android:ems="10"
+                android:gravity="center_vertical"
+                android:inputType="number"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:background="#0000FF"
+            android:gravity="center"
+            android:text="VALOR PAGO PELO CLIENTE"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="R$:"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextValorPago"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:ems="10"
+                android:gravity="center_vertical"
+                android:inputType="numberDecimal"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btCalcularCompra"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#00008B"
+            android:gravity="center"
+            android:onClick="finalizarCompra"
+            android:text="FINALIZAR COMPRA" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#0000FF"
+            android:text="VALOR DO TROCO"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewTroco"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:background="#0000FF"
+            android:text="TEM DIREITO A BRINDE ?"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewSimNão"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvObrigado"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="#0000FF"
+            android:gravity="center"
+            android:text="MUITO OBRIGADO E VOLTE SEMPRE !!!"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/btSalvarValorCarrinho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Voltar para a tela de categoria" />
+
+        <Button
+            android:id="@+id/btCarregar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recuperar Valor Salvo Anteriormente" />
+
+    </LinearLayout>
+
+</ScrollView>
+   

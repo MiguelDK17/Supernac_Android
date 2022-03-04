@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1065C0"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="991dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="301dp"
+                android:layout_height="151dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/img_20220210_wa0005" />
+
+            <EditText
+                android:id="@+id/tvRecebeUsuario1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:clickable="false"
+                android:enabled="false"
+                android:gravity="center"
+                android:textColor="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btOfertas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="141dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/roundedbutton"
+                    android:text="em oferta"
+                    app:backgroundTint="#D75413" />
+
+                <Button
+                    android:layout_width="127dp"
+                    android:layout_height="141dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/roundedbutton"
+                    android:text="vendas"
+                    app:backgroundTint="#D75413" />
+
+                <Button
+                    android:id="@+id/btNotificações"
+                    android:layout_width="119dp"
+                    android:layout_height="147dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/roundedbutton"
+                    android:text="NOTIFICAÇÕES"
+                    app:backgroundTint="#D75413" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="119dp"
+                    android:layout_height="144dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/roundedbutton"
+                    android:text="FACEBOOK"
+                    app:backgroundTint="#D75413" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="127dp"
+                    android:layout_height="144dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/roundedbutton"
+                    android:text="Meu Perfil"
+                    app:backgroundTint="#D75413" />
+
+                <Button
+                    android:layout_width="127dp"
+                    android:layout_height="141dp"
+                    android:background="@drawable/roundedbutton"
+                    android:text="twitter"
+                    app:backgroundTint="#D75413" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btCanaisdecontato"
+                    android:layout_width="127dp"
+                    android:layout_height="144dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/roundedbutton"
+                    android:text="CANAIS DE CONTATO"
+                    app:backgroundTint="#D75413" />
+
+                <Button
+                    android:layout_width="116dp"
+                    android:layout_height="144dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/roundedbutton"
+                    android:text="calcula churrasco"
+                    app:backgroundTint="#D75413" />
+
+                <Button
+                    android:id="@+id/vendas_online"
+                    android:layout_width="120dp"
+                    android:layout_height="141dp"
+                    android:background="@drawable/roundedbutton"
+                    android:text="nosso site"
+                    app:backgroundTint="#D75413" />
+
+
+            </LinearLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/btcarrinhoflutuante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                app:srcCompat="@android:drawable/ic_input_add"
+                android:layout_gravity="end"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</ScrollView>
+
+

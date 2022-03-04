@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA500"
+    android:foregroundGravity="right"
+    tools:context=".categoria">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="409dp"
+            android:layout_height="63dp"
+            android:background="#0000FF"
+            android:gravity="center"
+            android:text="CATEGORIA"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="411dp"
+            android:layout_height="85dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/inform_tica" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="50dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/eletr_nica" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btInformatica"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:text="Informática"
+                android:textColor="#FFFF00" />
+
+            <Button
+                android:id="@+id/btEletronica"
+                android:layout_width="149dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:backgroundTint="#0000FF"
+                android:textColor="#FFFF00"
+                android:background="@drawable/buttonshape"
+                android:text="Eletrônica" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="411dp"
+            android:layout_height="81dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="140dp"
+                android:layout_height="97dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="-10dp"
+                app:srcCompat="@drawable/a_ougue" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:layout_marginLeft="48dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/casa" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btAlimentos"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="40dp"
+                android:backgroundTint="#0000FF"
+                android:textColor="#FFFF00"
+                android:text="ALIMENTOS" />
+
+            <Button
+                android:id="@+id/btCasa"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:backgroundTint="#0000FF"
+                android:textColor="#FFFF00"
+                android:text="CASA" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="148dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="54dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/jogos" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="176dp"
+                android:layout_height="74dp"
+                app:srcCompat="@drawable/bebidas" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btJogos"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="39dp"
+                android:backgroundTint="#0000FF"
+                android:text="JOGOS"
+                android:textColor="#FFFF00" />
+
+            <Button
+                android:id="@+id/btbebidas"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:backgroundTint="#0000FF"
+                android:text="bebidas"
+                android:textColor="#FFFF00" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="148dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="35dp"
+                app:srcCompat="@drawable/hortifruti"/>
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="148dp"
+                android:layout_height="65dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/padaria" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btHortifruti"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="37dp"
+                android:backgroundTint="#0000FF"
+                android:text="hortifruti"
+                android:textColor="#FFFF00" />
+
+            <Button
+                android:id="@+id/btPadaria"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="67dp"
+                android:backgroundTint="#0000FF"
+                android:text="padaria"
+                android:textColor="#FFFF00" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btvoltarcarrinho"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:text="Ir para o carrinho" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

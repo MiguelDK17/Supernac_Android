@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ADD8E6">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:background="#0000FF"
+            android:gravity="center"
+            android:text="Informática"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/iphone" />
+
+        <CheckBox
+            android:id="@+id/chkIphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iphone 12 64GB 5G Tela 6.1 Câmera 12MP - R$4.799,90"
+            android:background="@color/white"/>
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/macbook" />
+
+        <CheckBox
+            android:id="@+id/chkMacBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MacBook Air 13.3 polegadas,Processador M1 da Apple,Octacore 8GB RAM - R$7.500,00"
+            android:background="@color/white"/>
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/roteador" />
+
+        <CheckBox
+            android:id="@+id/chkRoteador"
+            android:layout_width="690dp"
+            android:layout_height="wrap_content"
+            android:text="Roteador TP-Link WiFi Smart 8 Stream 802.11ax Next-Gen,porta WAN 2,5G Quad-Core 1,8GHz - R$1.799,90"
+            android:background="@color/white"/>
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/cabo_usb"
+            android:layout_gravity="center"/>
+
+        <CheckBox
+            android:id="@+id/chkCabo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cabo USB R$15,00"
+            android:background="@color/white"/>
+
+        <Button
+            android:id="@+id/btTotalinformática"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TOTAL"
+            android:backgroundTint="#00008B"/>
+
+        <EditText
+            android:id="@+id/edtTotalinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="TOTAL"
+            android:inputType="textPersonName"
+            android:text=""
+            android:visibility="invisible"/>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+

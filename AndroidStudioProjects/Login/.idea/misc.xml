@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/drawable-v21/oval_ripple.xml" value="0.165" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/drawable/buttonshape.xml" value="0.3675" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/drawable/oval_ripple.xml" value="0.1785" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/drawable/roundedbutton.xml" value="0.14" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_alimentos.xml" value="0.21" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_bebidas.xml" value="0.18" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_carrinho.xml" value="0.33" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_carrinho_eletronicos.xml" value="0.2" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_carrinho_full.xml" value="0.3087719298245614" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_carrinho_ps4_pack.xml" value="0.33" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_casa.xml" value="0.22" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_categoria.xml" value="0.2" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_compra_realizada.xml" value="0.3087719298245614" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_eletronicos_carrinho.xml" value="0.2" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_finalizando_compras.xml" value="0.22" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_hortifruti.xml" value="0.21" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_informatica.xml" value="0.25" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_jogos.xml" value="0.33" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_padaria.xml" value="0.24166666666666667" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_perfil.xml" value="0.19774590163934427" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_ps4_mega.xml" value="0.25" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_quantidade_carrinho.xml" value="0.33" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_segunda_tela.xml" value="0.2776268115942029" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_tela2.xml" value="0.22" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_teste.xml" value="0.2" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/activity_vendas_online.xml" value="0.1546875" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/alimentos.xml" value="0.1322463768115942" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/android.xml" value="0.2015625" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/carrinho_jogos.xml" value="0.22" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/carrinho_projeto.xml" value="0.25" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/carrinho_ps4.xml" value="0.33" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/carrinho_ps4_pack.xml" value="0.17280701754385966" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/eletronicos_carrinho.xml" value="0.1515625" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/jogos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/m.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/novatela.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/ps4.xml" value="0.17280701754385966" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/tela_2.xml" value="0.18" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/tela_3.xml" value="0.2837938760268857" />
+        <entry key="..\:/Users/821236/AndroidStudioProjects/Login/app/src/main/res/layout/teste.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://github.com/MiguelDK17/Supernac_Android" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

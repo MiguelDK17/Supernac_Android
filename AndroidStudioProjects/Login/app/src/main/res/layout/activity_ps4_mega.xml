@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PS4_Mega">
+
+    <EditText
+        android:id="@+id/editTextPreco4"
+        android:layout_width="195dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="28dp"
+        android:clickable="false"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="2999.99"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextQuantidade4"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:layout_constraintVertical_bias="0.636" />
+
+    <EditText
+        android:id="@+id/editTextQuantidade4"
+        android:layout_width="153dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="356dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/textViewTotal4"
+        app:layout_constraintEnd_toEndOf="@+id/editTextPreco4"
+        app:layout_constraintHorizontal_bias="0.731"
+        app:layout_constraintStart_toStartOf="@+id/textView21"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.404" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="36dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="72dp"
+        android:text="R$:"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editTextPreco"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="74dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="TOTAL"
+        app:layout_constraintBottom_toTopOf="@+id/textViewTotal4"
+        app:layout_constraintEnd_toEndOf="@+id/editTextQuantidade4"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toStartOf="@+id/editTextQuantidade4"
+        app:layout_constraintTop_toBottomOf="@+id/editTextQuantidade4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textViewTotal4"
+        android:layout_width="153dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="376dp"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView26"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="@+id/textView26"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.172" />
+
+    <Button
+        android:id="@+id/btCalcular2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:onClick="Multiplicar2"
+        android:text="CALCULAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textViewTotal4"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="@+id/textViewTotal4"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTotal4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="159dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextQuantidade4"
+        app:layout_constraintEnd_toEndOf="@+id/textView27"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textView27"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/ps4_2" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="165dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:text="Quanto do PS4 Mega Pack você quer levar ?"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

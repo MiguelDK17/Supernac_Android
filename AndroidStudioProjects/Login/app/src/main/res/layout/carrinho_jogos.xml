@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CarrinhoJogosActivity"
+    android:background="#ADD8E6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:background="#0000FF"
+            android:gravity="center"
+            android:text="Jogos"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ps4" />
+
+        <CheckBox
+            android:id="@+id/chkPS4SLIM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="PS4 SLIM - R$2.399,00"
+            android:textColor="@color/black"/>
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ps4_2" />
+
+        <CheckBox
+            android:id="@+id/chkPS4MEGA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="PS4 MEGA PACK - R$2.999,00"
+            android:textColor="@color/black"/>
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="160dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ps4_3" />
+
+        <CheckBox
+            android:id="@+id/chkPS4SPIDERMAN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="PS4 SPIDER-MAN R$ 2.499,00"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0000FF"
+            android:gravity="center"
+            android:text="TOTAL"
+            app:backgroundTint="#00008B"
+            tools:ignore="TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/editTextTotalCompra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="TOTAL"
+            android:inputType="number"
+            android:visibility="invisible" />
+
+
+    </LinearLayout>
+</ScrollView>
+
