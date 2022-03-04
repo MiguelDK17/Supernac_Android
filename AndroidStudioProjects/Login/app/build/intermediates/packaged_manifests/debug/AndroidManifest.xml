@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Login"
+    android:versionCode="1"
+    android:versionName="2.5" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="31" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Supernac"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.Login" >
+        <activity
+            android:name="com.example.login.Padaria"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login.Hortifruti"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login.Perfil"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login.bebidas"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login.teste"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login.Vendas_Online"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login.casa"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog.Alert" />
+        <activity
+            android:name="com.example.login.alimentos"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login.categoria"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login.eletronicos_carrinho"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login.finalizando_compras"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login.CarrinhoJogosActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login.Informatica"
+            android:exported="true" />
+        <activity
+            android:name="com.example.login.MainActivity2"
+            android:exported="true" />
+        <activity
+            android:name="com.example.login.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,62 @@
+com/example/login/carrinho_eletronicos.java
+ com.example.login.carrinho_eletronicos
+com/example/login/Perfil.java
+ com.example.login.Perfil
+com/example/login/bebidas.java
+ com.example.login.bebidas
+com/example/login/Padaria.java
+ com.example.login.Padaria
+com/example/login/Vendas_Online.java
+ com.example.login.Vendas_Online
+com/example/login/Hortifruti.java
+ com.example.login.Hortifruti
+com/example/login/BuildConfig.java
+ com.example.login.BuildConfig
+com/example/login/eletronicos_carrinho.java
+ com.example.login.eletronicos_carrinho
+com/example/login/Compra_Realizada.java
+ com.example.login.Compra_Realizada
+ com.example.login.Compra_Realizada$1
+ com.example.login.Compra_Realizada$2
+com/example/login/alimentos.java
+ com.example.login.alimentos
+com/example/login/teste.java
+ com.example.login.teste
+com/example/login/PS4_Mega.java
+ com.example.login.PS4_Mega
+com/example/login/MainActivity.java
+ com.example.login.MainActivity
+ com.example.login.MainActivity$1
+com/example/login/categoria.java
+ com.example.login.categoria
+ com.example.login.categoria$1
+ com.example.login.categoria$2
+ com.example.login.categoria$3
+ com.example.login.categoria$4
+ com.example.login.categoria$5
+ com.example.login.categoria$6
+ com.example.login.categoria$7
+ com.example.login.categoria$8
+ com.example.login.categoria$9
+com/example/login/CarrinhoJogosActivity.java
+ com.example.login.CarrinhoJogosActivity
+ com.example.login.CarrinhoJogosActivity$1
+com/example/login/MainActivity2.java
+ com.example.login.MainActivity2
+ com.example.login.MainActivity2$1
+ com.example.login.MainActivity2$1$1
+ com.example.login.MainActivity2$1$2
+ com.example.login.MainActivity2$1$3
+com/example/login/finalizando_compras.java
+ com.example.login.finalizando_compras
+ com.example.login.finalizando_compras$1
+ com.example.login.finalizando_compras$2
+com/example/login/Informatica.java
+ com.example.login.Informatica
+ com.example.login.Informatica$1
+com/example/login/casa.java
+ com.example.login.casa
+ com.example.login.casa$1
+ com.example.login.casa$1$1
+ com.example.login.casa$1$2
+ com.example.login.casa$2
