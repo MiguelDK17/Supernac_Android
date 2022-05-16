@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".casa"
+    android:background="#FFA500">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_gravity="center"
+                android:background="#0000FF"
+                android:gravity="center"
+                android:text="Casa"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="20dp"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdVeja"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#808080"
+                    android:padding="10dp">
+
+
+                    <TextView
+                        android:id="@+id/tvVeja"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Veja Multiuso"
+                        android:textColor="#fff"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvVejaNome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvVeja"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:text="64GB 5G Tela 6.1 Câmera 12 MP"
+                        android:visibility="invisible"
+                        android:textColor="#fff" />
+
+                    <TextView
+                        android:id="@+id/edtVeja"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvVejaNome"
+                        android:layout_marginLeft="31dp"
+                        android:layout_marginTop="6dp"
+                        android:text="6.99"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tvVejaPreco"
+                        android:layout_width="33dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvVejaNome"
+                        android:layout_marginTop="6dp"
+                        android:text="R$: "
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        android:src="@drawable/veja_multiuso" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdToalha"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#808080"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/Abbey_Road"
+                        android:layout_width="194dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Toalha de Banho"
+                        android:textColor="#fff"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvToalhaNome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Abbey_Road"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:text="Jogo de Toalha Santista"
+                        android:textColor="#fff" />
+
+
+                    <TextView
+                        android:id="@+id/edtToalha"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvToalhaNome"
+                        android:layout_marginLeft="31dp"
+                        android:layout_marginTop="6dp"
+                        android:text="69.90"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tvMacBookPreco"
+                        android:layout_width="33dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvToalhaNome"
+                        android:layout_marginTop="6dp"
+                        android:text="R$: "
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        android:src="@drawable/toalha_de_banho" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdAssolan"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#808080"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/Sgt_Peppers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Assolan"
+                        android:textColor="#fff"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvAssolanNome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Sgt_Peppers"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:text="Wifi Smart Stream 802.11ax"
+                        android:visibility="invisible"
+                        android:textColor="#fff" />
+
+                    <TextView
+                        android:id="@+id/edtAssolan"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvAssolanNome"
+                        android:layout_marginLeft="31dp"
+                        android:layout_marginTop="6dp"
+                        android:text="5.00"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tvAssolanPreco"
+                        android:layout_width="33dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvAssolanNome"
+                        android:layout_marginTop="6dp"
+                        android:text="R$: "
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        android:src="@drawable/bombril" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/crdPano"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="20dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#808080"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/Naked"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Pano de Chão"
+                        android:textColor="#fff"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvPanoNome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Naked"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="3dp"
+                        android:text="Unidade"
+                        android:textColor="#fff"/>
+
+                    <TextView
+                        android:id="@+id/edtPano"
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvPanoNome"
+                        android:layout_marginLeft="31dp"
+                        android:layout_marginTop="6dp"
+                        android:text="1.99"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/tvPanoPreco"
+                        android:layout_width="33dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvPanoNome"
+                        android:layout_marginTop="6dp"
+                        android:text="R$: "
+                        android:textColor="@color/white" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:layout_alignParentRight="true"
+                        android:maxHeight="100dp"
+                        android:src="@drawable/pano_de_ch_o" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvescondido"
+                android:visibility="invisible"/>
+            <EditText
+                android:id="@+id/edtTotalcasa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"/>
+
+        </LinearLayout>
+
+
+</ScrollView>
+
