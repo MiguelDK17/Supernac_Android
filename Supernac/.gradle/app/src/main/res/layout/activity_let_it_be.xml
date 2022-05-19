@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Let_It_Be"
+    android:background="#9B111E">
+
+    <ImageView
+        android:id="@+id/imgLet_it_Be"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12"
+        app:srcCompat="@drawable/let_it_be" />
+
+    <TextView
+        android:id="@+id/tvLet_it_Be"
+        android:scrollbars="vertical"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:layout_width="223dp"
+        android:layout_height="105dp"
+        android:layout_below="@+id/imgLet_it_Be"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.478"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Clique"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="256dp"
+        android:text="clique aqui"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLet_it_Be"
+        app:layout_constraintVertical_bias="0.185">
+
+    </Button>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Jogos"
+    android:background="#FFA500">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Jogos"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:background="#0000FF"/>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdPS4"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:id="@+id/tvPS4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="PS4 SLIM"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvPS4SLIMNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvPS4"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="1GB Acompanhando 1 controle"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/edtPS4"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvPS4SLIMNome"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="2399.00"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvBatataPreco"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvPS4SLIMNome"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/ps4" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdPS4MEGAPACK"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/Abbey_Road"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="PS4 MEGA PACK"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvAlfaceNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Abbey_Road"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="123"
+                    android:visibility="invisible"
+                    android:textColor="#fff"/>
+
+
+                <TextView
+                    android:id="@+id/edtPS4MEGAPACK"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvAlfaceNome"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="2999.00"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvMacBookPreco"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvAlfaceNome"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/ps4_2" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdPS4SPIDERMAN"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/Sgt_Peppers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="PS4 SPIDER-MAN"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvRoteadorNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Sgt_Peppers"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="Wifi Smart Stream 802.11ax"
+                    android:textColor="#fff"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/edtPS4SPIDERMAN"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvRoteadorNome"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="2499.99"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvPS4SPIDERMANPreco"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvRoteadorNome"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/ps4_3" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvescondido7"/>
+        <EditText
+            android:id="@+id/edtTotaljogos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+
+    
+
+    
+</ScrollView>
+
