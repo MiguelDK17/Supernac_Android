@@ -1,5 +1,5 @@
 <?php
-$db_name="supernac";
+$db_name="mysqlapp";
 $mysql_user="root";
 $mysql_pass="";
 $server_name = "localhost";

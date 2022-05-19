@@ -3,7 +3,7 @@ include 'conexão.php';
 $usuario=$_POST["usuario"];
 $senha=$_POST["senha"];
 //$usuario="Miguel";
-//$senha="1234";
+//$senha="123";
 $sql = "SELECT * FROM tb_pessoas WHERE usuario=? AND senha=?";
 $sentença=$con->prepare($sql);
 $sentença -> bind_param('ss',$usuario,$senha);

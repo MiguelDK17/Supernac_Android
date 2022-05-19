@@ -10,6 +10,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="Supernac"
         android:roundIcon="@mipmap/ic_launcher"
+        android:usesCleartextTraffic="true"
         android:supportsRtl="true"
         android:theme="@style/Theme.Login"
         tools:replace="android:label">

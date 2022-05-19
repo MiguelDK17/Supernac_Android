@@ -98,7 +98,7 @@ class finalizando_compras : AppCompatActivity() {
         btSalvar!!.setOnClickListener {
 
 
-            val prefs = getSharedPreferences("chaveGeral-xml", MODE_MULTI_PROCESS)
+            val prefs = getSharedPreferences("chaveGeral-xml", MODE_PRIVATE)
             val editor = prefs.edit()
             editor.putString("Chavepreco", tvRecebe!!.text.toString())
             editor.commit()
