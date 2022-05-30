@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA500"
+    android:orientation="horizontal"
+    tools:context=".bebidas"
+    tools:ignore="SpeakableTextPresentCheck">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_gravity="center"
+            android:background="#0000FF"
+            android:gravity="center"
+            android:text="Bebidas"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdAgua"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:id="@+id/tvAgua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Água Mineral"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvBatataNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvAgua"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="Sem Gás"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/edtAgua"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvBatataNome"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="2.99"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvBatataPreco"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvBatataNome"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/_gua_mineral_crystal" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdCocaCola"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/Abbey_Road"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Coca Cola"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvCocaColaNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Abbey_Road"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="2 Litros a unidade"
+                    android:textColor="#fff"/>
+
+
+                <TextView
+                    android:id="@+id/edtCoca"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvCocaColaNome"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="8.00"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvMacBookPreco"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvCocaColaNome"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/coca_cola" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdDellValle"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="20dp">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#808080"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/Sgt_Peppers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Dell Valle Kapo"
+                    android:textColor="#fff"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvRoteadorNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Sgt_Peppers"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="3dp"
+                    android:text="Maracujá 200ml"
+                    android:textColor="#fff"/>
+
+                <TextView
+                    android:id="@+id/edtKapo"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvRoteadorNome"
+                    android:layout_marginLeft="31dp"
+                    android:layout_marginTop="6dp"
+                    android:text="6.99"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/tvMamãoPreco"
+                    android:layout_width="33dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tvRoteadorNome"
+                    android:layout_marginTop="6dp"
+                    android:text="R$: "
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:maxHeight="100dp"
+                    android:src="@drawable/suco_dell_valle_maracuj_" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvescondido2"
+        android:visibility="invisible"/>
+        <EditText
+            android:id="@+id/edtTotalBebidas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+</ScrollView>
